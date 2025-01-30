@@ -1,0 +1,7 @@
+body {background-color: lightblue; animation-name: example; animation-duration: 5s; animation-iteration-count: infinite;}
+@keyframes example { 0%   {background-color: #ff99cc;} 25%  {background-color: #ffff99;} 50%  {background-color: lightblue;} 100% {background-color: lightgreen;}}
+div {width: 100px; height: 100px; background-color: red; position: relative; animation-name: feba; animation-duration: 4s; animation-direction: reverse;}
+
+@keyframes feba { 0% {background-color:red; left:0px; top:0px;} 25% {background-color:yellow; left:200px; top:0px;} 50% {background-color:blue; left:200px; top:200px;} 75% {background-color:green; left:0px; top:200px;} 100% {background-color:red; left:0px; top:0px;}}
+
+table,th, td{border:1px solid black;}
